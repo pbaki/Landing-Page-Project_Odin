@@ -37,3 +37,15 @@ button {
     font-weight: lighter;
     color: #1F2937;
 }
+.Call-to-action {
+    background-color: #3882f6;
+    padding: 10px 200px;
+    margin: 90px;
+    border-radius: 5px;
+}
+.Call-to-action-text h3{
+    color: #F9FAF9;
+}
+.Call-to-action-text p {
+    color: #e5e7eb;
+}
