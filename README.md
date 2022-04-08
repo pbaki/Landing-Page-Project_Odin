@@ -1,1 +1,1 @@
-# Landing-Page-Project_Odin
+Felxbox Landing Page Project created following The Odin Project Curriculum
