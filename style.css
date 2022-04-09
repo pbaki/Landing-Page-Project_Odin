@@ -54,18 +54,6 @@ button:hover {
     font-weight: lighter;
     color: #1F2937;
 }
-.Call-to-action {
-    background-color: #3882f6;
-    padding: 10px 200px;
-    margin: 90px;
-    border-radius: 5px;
-}
-.Call-to-action-text h3{
-    color: #F9FAF9;
-}
-.Call-to-action-text p {
-    color: #e5e7eb;
-}
 .Elements img {
     border: 4px solid #3882f6;
     border-radius: 7px;   
@@ -144,4 +132,30 @@ button:hover {
     align-self: center;
     padding-left: 210px;
     padding-top: 10px;
+}
+.Call-to-action {
+    background-color: #3882f6;
+    width: 50%;
+    height: 128px;
+    margin: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.Call-to-action-text h3{
+    color: #F9FAF9;
+    margin: 0%;
+    margin-top: -2px;
+}
+.Call-to-action-text p {
+    color: #e5e7eb;
+}
+.Footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
