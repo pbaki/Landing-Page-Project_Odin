@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0% 0%;
 }
 .Header, .About, .Footer{
     background-color: #1F2937;
@@ -25,6 +26,7 @@ img {
 }
 button:hover {
      background-color: #1d65da;
+     cursor: pointer;
 }
  button {
      color: white;
@@ -37,7 +39,7 @@ button:hover {
      border: 2px solid #3882f6;
  }
  .button-1 button:hover {
-     border: 2px solid #1d65da;
+     border: 2px solid #1d65da;   
  }
 .element-title {
     font-size: 36px;
@@ -67,6 +69,23 @@ button:hover {
     border-radius: 7px;   
 }
 .button-2 button {
-    border: 2px solid white;
-    
+    border: 2px solid white;   
+}
+.Footer p {
+    color: #F9FAF9;
+}
+.Header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Link-1:hover, .Link-2:hover,.Link-3:hover {
+    color: #9fa7b8;
+    cursor: pointer;
+}
+.Links {
+    color: #e5e7eb;
+    display: flex;
+    gap: 10px;
 }
