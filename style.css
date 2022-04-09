@@ -7,22 +7,24 @@ body {
 .Header, .About, .Footer{
     background-color: #1F2937;
 }
-img {
-    width: 200px;
-    height: 200px;
-}
 .Bold-desc {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF9;
+    margin: 0%;
 }
 .Logo {
     font-size: 24px;
     color: #F9FAF9;
+    padding-left: 20%;
+}
+p {
+    margin: 0%;
 }
 .text {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 10px;
 }
 button:hover {
      background-color: #1d65da;
@@ -76,6 +78,7 @@ button:hover {
 }
 .Header {
     width: 100%;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,5 +90,42 @@ button:hover {
 .Links {
     color: #e5e7eb;
     display: flex;
-    gap: 10px;
+    gap: 21px;
+    padding-right: 20%;
+}
+.About {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+    padding-bottom: 50px;
+}
+.left {
+    width: 40%;
+    margin-top: -15px;
+}
+.Image img {
+    margin-top: 0%;
+    height: 280px;
+    width: 500px;
+    padding-left: 50px;
+}
+.element-title {
+    text-align: center;
+}
+.Elements {
+    display: flex;
+    justify-content: space-around;
+}
+.Elements img {
+    width: 180px;
+    height: 180px;
+}
+.Elements p {
+    width: 180px;
+}
+.Info {
+    width: 57%;
 }
