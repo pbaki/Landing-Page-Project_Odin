@@ -93,12 +93,16 @@ button:hover {
 .left {
     width: 40%;
     margin-top: -15px;
+    flex: 0 0 auto;
+}
+.Image {
+    width: 500px;
 }
 .Image img {
     margin-top: 0%;
     height: 280px;
-    width: 500px;
-    padding-left: 50px;
+    width: 110%;
+    flex: 0 1 auto;
 }
 .element-title {
     text-align: center;
@@ -106,6 +110,7 @@ button:hover {
 .Elements {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .Elements img {
     width: 180px;
